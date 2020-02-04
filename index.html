@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Descrição do conteúdo do site -->
+		<meta name="description" content="ADICIONAR A DESCRIÇÃO SOBRE O SITE"/>
+		<!-- Palavras chaves, facilita encontrar o site na hora em que o usuário estiver procurando por conteúdos similares ao do site -->
+		<meta name="keywords" content="estufa, monitoramento, agricultura de precisão, estufa ifsc" />
+		<!-- Indicar o autor -->
+		<meta name="author" content="NOME DO AUTOR OU AUTORES" />
+		<!-- Para orientar os robôs de buscas (follow e nofollow) -->
+		<meta name="robots" content="index, follow" /> <!-- content="index, follow" indica que é a página inicial index e que há mais páginas que seguem apartir dela -->
+		<!-- meta tag viewport para controlar o layout em navegadores de dispositivos móveis -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- Bootstrap 4 -->
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<!-- Popper JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+		<!-- Icones Redes Sociais -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+		<!-- Estilização CSS -->
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		
+		<title>Home</title>
+	</head>
+	<body>
+		<header>
+			<!-- Jumbotron -->
+			<div class="jumbotron">
+				<div class="container">
+					<h1 class="text-center">Cabeçalho</h1>
+					<p class="text-center">MENSAGEM OU DESCRIÇÃO SOBRE O SITE</p>
+				</div>
+		  </div>
+		</header>
+
+		<!-- Navbar -->
+		<nav class="navbar navbar-expand-md  navbar-dark sticky-top" style="background-color: #0f5f5c">
+			<a class="navbar-brand">Estufa</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Link_1</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Link_2</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Dropdown</a>
+						<div class="dropdown-menu">
+							<h5 class="dropdown-header">Outros links</h5>
+							<a class="dropdown-item" href="#">Link_3</a>
+							<a class="dropdown-item" href="#">Link_4</a>
+							<a class="dropdown-item" href="#">Link_5</a>
+							<a class="dropdown-item" href="#">Link_6</a>
+							<h5 class="dropdown-header">Outros links</h5>
+							<a class="dropdown-item" href="#">Link_7</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<!-- Modal -->
+						<a class="nav-link" href="#" data-toggle="modal" data-target="#myModal">Sobre</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<!-- The Modal -->
+		<div class="modal fade" id="myModal">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<!-- Modal Header -->
+					<div class="modal-header">
+						<h4 class="modal-title">Sobre</h4>
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+					</div>
+					<!-- Modal body -->
+					<div class="modal-body">
+						SOBRE O SITE
+					</div>
+					<!-- Modal footer -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<main>
+			<!-- Carrosel -->
+			<div class="container">
+				<div id="demo" class="carousel slide" data-ride="carousel" style="width:100%">
+					<!-- Indicadores -->
+					<ul class="carousel-indicators">
+						<li data-target="#demo" data-slide-to="0" class="active"></li>
+						<li data-target="#demo" data-slide-to="1"></li>
+					</ul>
+					<!-- Slides -->
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img class="img-fluid" src="img/campo_0.jpg" alt="ADICIONAR DESCRIÇÃO DA IMAGEM - OBRIGATÓRIO">
+						</div>
+						<div class="carousel-item">
+							<img class="img-fluid" src="img/campo_1.jpg" alt="ADICIONAR DESCRIÇÃO DA IMAGEM - OBRIGATÓRIO">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- ./Carrosel -->
+			<section>
+				<div class="container">
+					<h2>Título 1</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos nemo eos aliquid magni aliquam numquam officia, ratione accusamus ut atque optio, dicta qui hic, a quia architecto praesentium harum esse.</p>
+
+					<h2>Título 2</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet sint, laboriosam cumque accusantium, corporis provident asperiores nemo dignissimos autem voluptatem officia libero saepe fugit assumenda odit illum ab numquam accusamus.</p>
+				</div>
+			</section>
+		</main>
+		
+
+		<footer>
+			<div id="team" class="pb-5 border-top">
+				<br />
+				<!-- Team -->
+				<div class="container">
+					<div class="container border-bottom">
+						<h2 class="text-center">Rodapé</h2>
+					</div>
+					<br />
+					<div class="row">
+						<!-- Team member -->
+						<div class="col-xs-12 col-sm-6 col-md-4">
+							<div class="image-flip">
+								<div class="mainflip">
+									<div class="frontside">
+										<div class="card">
+											<div class="card-body text-center">
+												<p><img class=" img-fluid" src="img/user_avatar.png" alt="ADICIONAR DESCRIÇÃO DA IMAGEM - OBRIGATÓRIO"></p>
+												<h4 class="card-title">Nome</h4>
+												<p class="card-text">Especialização_1<br />Especialização_2</p>
+											</div>
+										</div>
+									</div>
+									<div class="backside">
+										<div class="card">
+											<div class="card-body text-center mt-4">
+												<h4 class="card-title">Sobre</h4>
+												<p class="card-text">Sobre a pessoa, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint est unde molestiae quod corrupti accusantium reprehenderit eaque, veritatis natus odit, et iure ipsa quis tempora! Debitis ipsa ratione eveniet accusamus.</p>
+												<ul class="social-network social-circle">
+													<li><a href="#" target="_blank" class="icoGithub" title="GitHub"><i class="fa fa-github"></i></a></li>
+													<li><a href="#" target="_blank" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+													<li><a class="icoMail" data-toggle="tooltip" data-placement="bottom" title="EMAIL@email.com"><i class="fa fa-envelope"></i></a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- ./Team member -->
+						<!-- Team member -->
+						<div class="col-xs-12 col-sm-6 col-md-4">
+							<div class="image-flip">
+								<div class="mainflip">
+									<div class="frontside">
+										<div class="card">
+											<div class="card-body text-center">
+												<p><img class=" img-fluid" src="img/user_avatar.png" alt="ADICIONAR DESCRIÇÃO DA IMAGEM - OBRIGATÓRIO"></p>
+												<h4 class="card-title">Nome</h4>
+												<p class="card-text">Especialização_1<br />Especialização_2</p>
+											</div>
+										</div>
+									</div>
+									<div class="backside">
+										<div class="card">
+											<div class="card-body text-center mt-4">
+												<h4 class="card-title">Sobre</h4>
+												<p class="card-text">Sobre a pessoa, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint est unde molestiae quod corrupti accusantium reprehenderit eaque, veritatis natus odit, et iure ipsa quis tempora! Debitis ipsa ratione eveniet accusamus.</p>
+												<ul class="social-network social-circle">
+													<li><a href="#" target="_blank" class="icoGithub" title="GitHub"><i class="fa fa-github"></i></a></li>
+													<li><a href="#" target="_blank" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+													<li><a class="icoMail" data-toggle="tooltip" data-placement="bottom" title="EMAIL@email.com"><i class="fa fa-envelope"></i></a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- ./Team member -->
+						<!-- Team member -->
+						<div class="col-xs-12 col-sm-6 col-md-4">
+							<div class="image-flip">
+								<div class="mainflip">
+									<div class="frontside">
+										<div class="card">
+											<div class="card-body text-center">
+												<p><img class=" img-fluid" src="img/user_avatar.png" alt="ADICIONAR DESCRIÇÃO DA IMAGEM - OBRIGATÓRIO"></p>
+												<h4 class="card-title">Nome</h4>
+												<p class="card-text">Especialização_1<br />Especialização_2</p>
+											</div>
+										</div>
+									</div>
+									<div class="backside">
+										<div class="card">
+											<div class="card-body text-center mt-4">
+												<h4 class="card-title">Sobre</h4>
+												<p class="card-text">Sobre a pessoa, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint est unde molestiae quod corrupti accusantium reprehenderit eaque, veritatis natus odit, et iure ipsa quis tempora! Debitis ipsa ratione eveniet accusamus.</p>
+												<ul class="social-network social-circle">
+													<li><a href="#" target="_blank" class="icoGithub" title="GitHub"><i class="fa fa-github"></i></a></li>
+													<li><a href="#" target="_blank" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+													<li><a class="icoMail" data-toggle="tooltip" data-placement="bottom" title="EMAIL@email.com"><i class="fa fa-envelope"></i></a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- ./Team member -->
+						
+					</div>
+				</div>
+				<!-- ./Team -->
+				<div class="container border-top">
+					<br />
+				</div>
+			</div>
+		</footer>
+		<script> // Usado no tooltip de e-mail
+			$(document).ready(function(){
+				$('[data-toggle="tooltip"]').tooltip();
+			});
+		</script>
+	</body>
+</html>
